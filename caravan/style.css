@@ -15,15 +15,31 @@ a {
 	clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
+	position: relative;
 	width: 90%;
 	padding: 15px 0;
-	margin: 15 auto;
+	margin: 0 auto;
 	text-align: center;
 }
 
 header .headline{
 	font-size: 32px;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+
+.social i {
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .nav-list {
@@ -94,6 +110,7 @@ main {
 .blog-image {
 	float: left;
 	height: 180px;
+	width: 270px;
 }
 
 .blog-text-headline {
@@ -131,7 +148,7 @@ main {
 	margin: 0 5px;
 	color: #fff;
 	background-color: #acabab;
-	border-radius: 5px;
+	border-radius: 3px;
 	line-height: 30px;
 }
 
