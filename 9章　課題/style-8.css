@@ -62,3 +62,62 @@ main {
 .title{
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+	
+	main {
+	width: 100%;
+	margin: 50px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: none;
+  clear: both;
+}
+
+
+.step-box {
+	float: none;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto 20px;
+	padding: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+
+.step-box:last-child{
+	margin-right: auto;
+}
+
+.step-img-1 {
+	height: 300px;
+	background-image: url(img/flow01.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.step-img-2 {
+	height: 300px;
+	background-image: url(img/flow02.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.step-img-3 {
+	height: 300px;
+	background-image: url(img/flow03.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.step-num{
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #fff;
+	padding: 3px;
+}
+
+}
